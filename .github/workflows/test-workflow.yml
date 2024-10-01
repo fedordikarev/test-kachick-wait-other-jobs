@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: wait
-        uses: kachick/wait-other-jobs@v3.4.1
+        uses: kachick/wait-other-jobs@a2e7af0e844065a8442f5ceb36bbcd7b473dc801 # v3.2.0
         timeout-minutes: 15
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
