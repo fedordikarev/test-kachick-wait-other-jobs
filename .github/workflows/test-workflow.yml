@@ -14,8 +14,7 @@ jobs:
           test "$ATTEMPT" -gt 1
 
   wait:
-    permissions:
-      actions: read
+    permissions: read-all
     runs-on: ubuntu-22.04
     steps:
       - name: wait
